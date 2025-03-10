@@ -1,0 +1,45 @@
+.secondimg{
+    margin-top: 10%;
+}
+
+@media (max-width: 2560px) {
+   
+    .secondimg{
+        margin-top: -4%;
+        height: 700px;
+    }
+}
+@media (max-width: 1024px) {
+   
+    .secondimg{
+        margin-top: 5%;
+    }
+}
+.btn-contraa{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.btn-contraa:hover{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+   
+    .secondimg{
+        margin-top: 60vh;
+        height: 500px;
+        /* border: 1px solid red; */
+    }
+}
+@media (max-width: 425px) {
+   
+    .secondimg{
+        margin-top: 0%;
+        height: 400px;
+        width: 100%;
+    }
+}
+
+
