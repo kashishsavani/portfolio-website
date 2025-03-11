@@ -152,6 +152,7 @@ p {
     overflow-x: auto;
     scrollbar-width: none; /* Firefox ke liye */
     -ms-overflow-style: none; /* IE/Edge ke liye */
+    width: 100%;
 }
 
 .custom-carousel-wrapper::-webkit-scrollbar {

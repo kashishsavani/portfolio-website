@@ -34,7 +34,7 @@ const Portfolio = () => {
       </p>
 
       <div className="custom-carousel-container mt-5">
-        <button className="custom-carousel-btn custom-prev">&#10094;</button>
+        {/* <button className="custom-carousel-btn custom-prev">&#10094;</button> */}
         <div className="custom-carousel-wrapper">
           {portfolioItems.map((item, index) => (
             <div className="custom-testimonial-card" key={index}>
@@ -51,7 +51,7 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-        <button className="custom-carousel-btn custom-next">&#10095;</button>
+        {/* <button className="custom-carousel-btn custom-next">&#10095;</button> */}
       </div>
     </div>
   );
