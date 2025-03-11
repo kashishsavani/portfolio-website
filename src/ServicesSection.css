@@ -48,3 +48,11 @@ html, body {
         width: 50% !important;
     }
   }
+
+  
+  @media (max-width: 425px) {
+  
+    .content{
+        width: 100% !important;
+    }
+  }

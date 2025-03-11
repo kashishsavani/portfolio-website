@@ -60,32 +60,33 @@ const AboutSection = () => {
 
         {/* Stats Section */}
         <div className="row border rounded-3 py-4 text-center mt-5">
-          <div className="col-md-3 col-sm-6 mb-3">
-            <div className="card1">
-              <h1>7.5+</h1>
-              <p>Years Experience</p>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 mb-3">
-            <div className="card1">
-              <h1>110+</h1>
-              <p>Happy Clients</p>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 mb-3">
-            <div className="card1">
-              <h1>75+</h1>
-              <p>Projects Done</p>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6 mb-3">
-            <div className="card1">
-              <h1>04</h1>
-              <p>Awards</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div className="col-md-3 col-sm-6 col-6 mb-3">
+    <div className="card1">
+      <h1>7.5+</h1>
+      <p>Years Experience</p>
+    </div>
+  </div>
+  <div className="col-md-3 col-sm-6 col-6 mb-3">
+    <div className="card1">
+      <h1>110+</h1>
+      <p>Happy Clients</p>
+    </div>
+  </div>
+  <div className="col-md-3 col-sm-6 col-6 mb-3">
+    <div className="card1">
+      <h1>75+</h1>
+      <p>Projects Done</p>
+    </div>
+  </div>
+  <div className="col-md-3 col-sm-6 col-6 mb-3">
+    <div className="card1">
+      <h1>04</h1>
+      <p>Awards</p>
+    </div>
+  </div>
+</div> 
+
+    </div>
     </div>
   );
 };

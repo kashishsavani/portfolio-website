@@ -11,8 +11,8 @@ const HomeSection = () => {
     return (
       <div className="container-fluid mainsection d-flex align-items-center justify-content-center" id="home">
         <div className="row align-items-center d-md-flex w-85">
-          <div className="col-lg-6 col-md-6 text-center text-lg-start">
-            <div className="containfirst">
+          <div className="col-lg-6 col-md-6   text-center text-lg-start order-2 order-md-1">
+            <div className="containfirst ">
               <h1 className="hello">
                 Hello <img src={wavingHand} alt="Waving Hand" /><br />
                 I'm <span>Dhaval Bhimani</span>
@@ -44,7 +44,7 @@ const HomeSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 text-center">
+          <div className="col-lg-6 col-md-6 text-center order-1 order-md-2">
             <img src={dhavalBhimani} alt="Dhaval Bhimani" className="img-fluid secondimg" />
           </div>
         </div>

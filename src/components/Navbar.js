@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="container-fluid mainnav fixed-top d-flex flex-column align-items-center justify-content-center">
       <nav className="navbar navbar-expand-lg navbar-light w-100">
-        <div className="container">
+        <div className="container d-flex justify-content-between"><h2 className="d-md-none fw-bold">Dhaval Bhimani</h2>
           <button
             className="navbar-toggler"
             type="button"

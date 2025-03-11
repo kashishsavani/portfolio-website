@@ -166,6 +166,17 @@ p {
     p {
         font-size: 1rem;
     }
+    .testimonial-card {
+        flex: 0 0 auto;
+      align-items: flex-start;
+       width: 100%;
+        
+        padding: 20px;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
 }
 
 
@@ -419,11 +430,7 @@ p {
 }
 
 
-@media (max-width: 768px) {
-    .testimonial-card {
-        width: calc(50% - 20px); /* 2 cards per row on smaller screens */
-    }
-}
+
 @media (max-width: 480px) {
     .testimonial-card {
         width: calc(100% - 20px); /* 1 card per row on very small screens */
