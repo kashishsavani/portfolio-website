@@ -44,7 +44,7 @@ const HomeSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 text-center order-1 order-md-2">
+          <div className="col-lg-6 col-md-6 mt-5 text-center order-1 order-md-2">
             <img src={dhavalBhimani} alt="Dhaval Bhimani" className="img-fluid secondimg" />
           </div>
         </div>

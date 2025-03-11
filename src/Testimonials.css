@@ -196,7 +196,7 @@ p {
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 10px 0;
-    width: 80%;
+    width: 100%;
 }
 
 .custom-testimonial-card {

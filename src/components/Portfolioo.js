@@ -27,7 +27,7 @@ const Portfolio = () => {
   const visibleItems = filteredItems.slice(0, visibleCards);
 
   return (
-    <div className="portfolio">
+    <div className="portfolio mt-md-5">
       <h1>My <span>Portfolio</span></h1>
       <p>Discover my impressive app development portfolio, showcasing a diverse range of innovative and user-centric mobile applications. Each project exemplifies my commitment to delivering exceptional user experiences while harnessing cutting-edge technology.</p>
       

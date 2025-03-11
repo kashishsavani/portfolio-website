@@ -54,7 +54,7 @@ const AboutSection = () => {
             className="btn btn-contraa"
             onClick={() => window.location.href = "https://contra.com/dhaval_bhimani_1?utm_campaign=HireMeOnContra&utm_medium=9c861776-37b4-4f23-85e3-d3394b2ecfda"}
           >
-            <img src={contraIcon} alt="Contra Icon" className="img-fluid imgcontraa" />
+            <img src={contraIcon} alt="Contra Icon" className="img-fluid  imgcontraa" />
           </button>
         </div>
 
