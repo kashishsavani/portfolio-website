@@ -41,13 +41,24 @@ const Portfolio = () => {
               <img src={item.logo} alt={`${item.name} Logo`} className="custom-app-logo" />
               <span>{item.name}</span>
               <div className="custom-store-icons d-flex">
-                {item.stores.includes("appstore") && (
-                  <img src="./img/images/appstore.svg" alt="Apple Store" />
-                )}
-                {item.stores.includes("playstore") && (
-                  <img src="./img/images/playstore.svg" alt="Google Play" />
-                )}
-              </div>
+  {item.stores.includes("appstore") && (
+    <img
+      src="./img/images/appstore.svg"
+      alt="Apple Store"
+      onClick={() => (window.location.href = "https://apps.apple.com/in/app/appatme-dating-chat-and-meet/id6499432093")}
+      style={{ cursor: "pointer" }}
+    />
+  )}
+  {item.stores.includes("playstore") && (
+    <img
+      src="./img/images/playstore.svg"
+      alt="Google Play"
+      onClick={() => (window.location.href = "https://play.google.com/store/apps/details?id=com.ddg.appatme&pli=1")}
+      style={{ cursor: "pointer" }}
+    />
+  )}
+</div>
+
             </div>
           ))}
         </div>

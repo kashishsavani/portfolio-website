@@ -51,6 +51,7 @@ const Portfolio = () => {
                     <div className="custom-app-card"> 
                       <img src={item.logo} alt="App Logo" className="custom-app-logo" />
                       <span className="text-start">{item.name}<br />Development</span>
+                      
                     </div>
                   </h5>
                 </div>

@@ -574,7 +574,7 @@ html {
 }
 
 .resumecard{
-    height: 170px;
+    min-height: 170px;
     border: 1px solid #ddd;
     border-radius: 10px;
     background-color: #fff;
@@ -713,6 +713,16 @@ html {
     font-size: 14px;
     border: 1px solid gray;
     color: gray;
+}
+
+.skill-tags > span:hover {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #E7B900;
+    color: #E7B900;
+    background-color: #fffbf0;
+
 }
 
 /* Responsive Design */
