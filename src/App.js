@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import HomeSection from "./components/HomeSection";
 import AboutSection from "./components/AboutSection ";
 import ServicesSection from "./components/ServicesSection";
-import ResumeSection from "./components/ResumeSection"
+import ResumeSection from "./components/ResumeSection";
 import SkillsSection from "./components/SkillsSection";
 import Testimonials from "./components/Testimonials";
 // import VideoReview from "./components/VideoReview";
@@ -20,17 +20,17 @@ function App() {
     <div className="App">
       <Navbar />
       <HomeSection />
-      <AboutSection/>
-      <ServicesSection/>
-      <ResumeSection/>
-      <SkillsSection/>
-      <Testimonials/>
-      <VideoReview/>
-      <Portfolio/>
-      <Portfolioo/>
-      
-      <HireMeSection/>
-      <Footer/>
+      <AboutSection />
+      <ServicesSection />
+      <ResumeSection />
+      <SkillsSection />
+      <Testimonials />
+      <VideoReview />
+      <Portfolio />
+      <Portfolioo />
+
+      <HireMeSection />
+      <Footer />
     </div>
   );
 }
